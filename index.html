@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#061c3b">
+  <meta name="description" content="Conheça a Petcare, um modelo demonstrativo de site para clínica veterinária: consultas, cuidados preventivos, especialidades e agendamento.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Petcare — Cuidado veterinário que acolhe">
+  <meta property="og:description" content="Modelo demonstrativo de clínica veterinária desenvolvido pela Guará Agency.">
+  <meta property="og:image" content="https://images.pexels.com/photos/7470754/pexels-photo-7470754.jpeg?auto=compress&cs=tinysrgb&w=1200">
+  <meta property="og:url" content="https://guaraagency-julio.github.io/modelo-pet-1/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./site.js" defer></script>
+  <title>Petcare | Clínica veterinária — Modelo demonstrativo</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header" id="inicio">
+    <div class="nav-container">
+      <a class="brand" href="#inicio" aria-label="Petcare, início"><span class="brand-symbol" aria-hidden="true">✳</span> petcare<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#equipe">Nossa equipe</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="btn btn-primary nav-cta js-book" type="button">Agendar consulta <span aria-hidden="true">↗</span></button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-tint" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-availability"><span class="pulse"></span> Cuidado de verdade, em cada fase da vida</div>
+        <h1 id="hero-title">Quem ama, <span>cuida.</span><br> Quem cuida, <span>está perto.</span></h1>
+        <p>Uma experiência veterinária pensada para acolher você e cuidar de quem faz parte da família. Da prevenção aos momentos que precisam de atenção especial.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-large js-book" type="button">Agendar uma consulta <span aria-hidden="true">↗</span></button>
+          <a class="btn btn-glass btn-large" href="#sobre">Conheça a Petcare <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom container" aria-hidden="true">
+        <span>CLÍNICA VETERINÁRIA</span><span class="hero-bottom-line"></span><span>MODELO DEMONSTRATIVO / GUARÁ AGENCY</span>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Rolar para conhecer a clínica"><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="intro section" id="sobre">
+      <div class="container">
+        <div class="intro-grid reveal">
+          <div class="section-heading"><span class="eyebrow"><i></i> O QUE FAZEMOS</span><h2>Todo cuidado que seu melhor amigo precisa. <em>Em um só lugar.</em></h2></div>
+          <p class="intro-copy">A Petcare é uma clínica veterinária de atendimento geral com foco no acompanhamento próximo e individualizado. Unimos atenção, orientação clara e uma rotina de cuidados pensada para cada pet.</p>
+        </div>
+        <div class="care-grid">
+          <article class="care-card care-card-featured reveal"><span class="care-card-icon" aria-hidden="true">✚</span><span class="care-card-index">01 / ATENDIMENTO</span><h3>Consultas e avaliação clínica</h3><p>Acompanhamento para investigar sintomas, orientar tutores e planejar os próximos cuidados com tranquilidade.</p><a href="#contato" aria-label="Saiba mais sobre consultas">Conhecer serviço <span aria-hidden="true">↗</span></a></article>
+          <article class="care-card reveal"><span class="care-card-icon" aria-hidden="true">♡</span><span class="care-card-index">02 / PREVENÇÃO</span><h3>Vacinas e prevenção</h3><p>Orientação sobre vacinação, check-ups e cuidados preventivos adequados à fase de vida do animal.</p><a href="#contato" aria-label="Saiba mais sobre prevenção">Conhecer serviço <span aria-hidden="true">↗</span></a></article>
+          <article class="care-card reveal"><span class="care-card-icon" aria-hidden="true">✦</span><span class="care-card-index">03 / SAÚDE BUCAL</span><h3>Saúde odontológica</h3><p>Avaliação da saúde oral e orientações para prevenir desconfortos e problemas dentários.</p><a href="#contato" aria-label="Saiba mais sobre odontologia">Conhecer serviço <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section section">
+      <div class="container story-grid">
+        <div class="story-photo-wrap reveal"><img src="https://images.pexels.com/photos/6234618/pexels-photo-6234618.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Veterinário atendendo um cachorro durante avaliação clínica" loading="lazy" decoding="async"><div class="photo-stamp"><span>♥</span> Cuidado que se sente</div></div>
+        <div class="story-content reveal"><span class="eyebrow"><i></i> NOSSA ESSÊNCIA</span><h2>Um olhar atento faz toda a <em>diferença.</em></h2><p>Sabemos que cada animal tem sua própria história. Por isso, o atendimento começa com escuta, acolhimento e uma avaliação cuidadosa.</p><p>Queremos que o tutor entenda cada orientação e que o pet seja recebido com paciência, respeito e carinho.</p><div class="story-perks"><div><span class="perk-icon">✓</span><span>Orientação clara para tutores</span></div><div><span class="perk-icon">✓</span><span>Acompanhamento individualizado</span></div><div><span class="perk-icon">✓</span><span>Prevenção em primeiro lugar</span></div></div><a class="btn btn-dark" href="#equipe">Conheça a equipe <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="testimonial-section" aria-labelledby="testimonial-heading">
+      <div class="container testimonial-layout">
+        <div class="testimonial-aside reveal"><span class="eyebrow eyebrow-light"><i></i> CONEXÃO E CONFIANÇA</span><h2 id="testimonial-heading">Pessoas que amam seus pets merecem ser <em>ouvidas.</em></h2><p>O cuidado acontece também na conversa. Veja como a experiência de atendimento pode ser apresentada aos futuros clientes.</p><div class="testimonial-controls"><button class="round-button" id="testimonial-prev" type="button" aria-label="Depoimento anterior">←</button><button class="round-button" id="testimonial-next" type="button" aria-label="Próximo depoimento">→</button><span id="testimonial-count" aria-live="polite">01 / 03</span></div></div>
+        <div class="testimonial-panel reveal">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <div class="quote-list" id="testimonial-list" aria-live="polite">
+            <figure class="quote is-active"><blockquote>Fui acolhida desde o primeiro contato. Recebi explicações claras sobre a consulta e saí muito mais tranquila sobre os cuidados com a minha gata.</blockquote><figcaption><span class="avatar avatar-one">MC</span><span><strong>Mariana Costa</strong><small>Relato fictício para demonstração</small></span></figcaption></figure>
+            <figure class="quote" hidden><blockquote>Gostei de poder tirar dúvidas com calma. A experiência foi organizada e senti bastante atenção durante todo o atendimento do meu cachorro.</blockquote><figcaption><span class="avatar avatar-two">RA</span><span><strong>Rafael Almeida</strong><small>Relato fictício para demonstração</small></span></figcaption></figure>
+            <figure class="quote" hidden><blockquote>Foi fácil entender o que precisava ser feito. O jeito como explicaram cada etapa fez diferença para eu cuidar melhor do meu pet em casa.</blockquote><figcaption><span class="avatar avatar-three">BL</span><span><strong>Bruna Lima</strong><small>Relato fictício para demonstração</small></span></figcaption></figure>
+          </div><div class="testimonial-disclaimer">* Depoimentos ilustrativos. Substituir por avaliações autênticas antes de usar comercialmente.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section" id="duvidas">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal"><span class="eyebrow"><i></i> PERGUNTAS FREQUENTES</span><h2>Cuidar bem também é <em>tirar dúvidas.</em></h2><p>Reunimos algumas perguntas comuns de tutores. O atendimento real deve fornecer orientações específicas para cada animal.</p><img class="faq-photo" src="https://images.pexels.com/photos/1573865526739-10659fec78a5.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Gato de olhos claros olhando para a câmera" loading="lazy" decoding="async"></div>
+        <div class="faq-items reveal">
+          <details class="faq-item" open><summary>Quando devo levar meu pet ao veterinário?<span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer">Consultas de rotina são importantes em todas as fases da vida. Mudanças de comportamento, apetite ou disposição também merecem avaliação. O intervalo ideal de acompanhamento deve ser definido pelo veterinário.</div></details>
+          <details class="faq-item"><summary>Como funciona a primeira consulta?<span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer">Normalmente inclui uma conversa sobre o histórico do animal, avaliação física e orientações sobre cuidados, exames ou acompanhamento, conforme a necessidade.</div></details>
+          <details class="faq-item"><summary>Meu animal precisa estar com as vacinas em dia?<span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer">A vacinação ajuda a proteger os animais contra doenças importantes. O calendário varia conforme espécie, idade, condição de saúde e avaliação profissional.</div></details>
+          <details class="faq-item"><summary>O que fazer em uma emergência?<span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer">Em caso de dificuldade respiratória, convulsões, trauma grave ou outros sinais importantes, procure imediatamente um serviço veterinário de urgência. Este site é demonstrativo e não oferece atendimento.</div></details>
+          <details class="faq-item"><summary>Posso agendar o atendimento pelo site?<span class="faq-plus" aria-hidden="true">+</span></summary><div class="faq-answer">Este modelo permite preparar uma solicitação de agendamento. Ao ser contratado por uma clínica, o botão poderá ser integrado ao WhatsApp, a uma agenda digital ou a um sistema de gestão.</div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section section" id="servicos">
+      <div class="container">
+        <div class="services-head reveal"><div><span class="eyebrow eyebrow-light"><i></i> NOSSOS SERVIÇOS</span><h2>Cuidado para todos os momentos da vida do seu pet.</h2></div><p>Da rotina às necessidades específicas, cada atendimento começa com atenção ao que realmente importa para o animal e sua família.</p></div>
+        <div class="services-showcase" id="especialidades">
+          <div class="service-selector" role="tablist" aria-label="Conheça os serviços">
+            <button type="button" class="service-tab active" id="tab-consultas" role="tab" aria-selected="true" aria-controls="service-content" data-service="consultas"><span>✚</span> Consultas clínicas <b aria-hidden="true">↗</b></button>
+            <button type="button" class="service-tab" id="tab-vacinas" role="tab" aria-selected="false" tabindex="-1" aria-controls="service-content" data-service="vacinas"><span>♡</span> Vacinação e prevenção <b aria-hidden="true">↗</b></button>
+            <button type="button" class="service-tab" id="tab-odontologia" role="tab" aria-selected="false" tabindex="-1" aria-controls="service-content" data-service="odontologia"><span>✦</span> Odontologia veterinária <b aria-hidden="true">↗</b></button>
+            <button type="button" class="service-tab" id="tab-exames" role="tab" aria-selected="false" tabindex="-1" aria-controls="service-content" data-service="exames"><span>⌁</span> Avaliações e exames <b aria-hidden="true">↗</b></button>
+          </div>
+          <article class="service-feature" id="service-content" role="tabpanel" aria-labelledby="tab-consultas" tabindex="0">
+            <div class="service-feature-image"><img id="service-image" src="https://images.pexels.com/photos/7470754/pexels-photo-7470754.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Atendimento veterinário de um cão em consultório" loading="lazy" decoding="async"></div>
+            <div class="service-feature-details"><span id="service-number">01 — CUIDADO CLÍNICO</span><h3 id="service-title">Consultas para acompanhar cada fase.</h3><p id="service-description">Uma avaliação atenta para compreender sinais, responder dúvidas e orientar as próximas etapas com clareza. Porque cada pet merece um plano de cuidados individualizado.</p><button class="btn btn-light js-book" type="button">Solicitar atendimento <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section section" id="equipe">
+      <div class="container">
+        <div class="team-heading reveal"><div><span class="eyebrow"><i></i> QUEM CUIDA</span><h2>Conheça quem estará ao lado de <em>vocês.</em></h2></div><p>Um espaço para apresentar os profissionais, especialidades e a forma de atender da clínica. As identidades abaixo são ilustrativas.</p></div>
+        <div class="team-grid">
+          <article class="team-card reveal"><div class="team-image"><img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Retrato ilustrativo de profissional da saúde" loading="lazy"><span class="team-plus">↗</span></div><h3>Dra. Ana Martins</h3><p>Clínica geral · Profissional fictícia</p></article>
+          <article class="team-card reveal"><div class="team-image"><img src="https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Retrato ilustrativo de profissional da saúde" loading="lazy"><span class="team-plus">↗</span></div><h3>Dr. Lucas Pereira</h3><p>Medicina preventiva · Profissional fictício</p></article>
+          <article class="team-card reveal"><div class="team-image"><img src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Retrato ilustrativo de profissional da saúde" loading="lazy"><span class="team-plus">↗</span></div><h3>Dra. Beatriz Lima</h3><p>Saúde oral · Profissional fictícia</p></article>
+          <article class="team-card reveal"><div class="team-image"><img src="https://images.pexels.com/photos/8460094/pexels-photo-8460094.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Retrato ilustrativo de profissional da saúde" loading="lazy"><span class="team-plus">↗</span></div><h3>Dr. Pedro Rocha</h3><p>Diagnóstico · Profissional fictício</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-info reveal"><span class="eyebrow eyebrow-light"><i></i> VAMOS CONVERSAR</span><h2>Prontos para cuidar de quem você <em>ama.</em></h2><p>Um atendimento começa com uma boa conversa. Use o formulário de demonstração para visualizar como seria solicitar uma consulta.</p><div class="contact-links"><div><span class="contact-icon" aria-hidden="true">✉</span><div><strong>E-mail</strong><span>contato@petcare.example</span></div></div><div><span class="contact-icon" aria-hidden="true">⌖</span><div><strong>Localização</strong><span>Novo Hamburgo, RS · localização ilustrativa</span></div></div><div><span class="contact-icon" aria-hidden="true">◷</span><div><strong>Atendimento</strong><span>Horários a definir pela clínica contratante</span></div></div></div></div>
+        <form class="contact-form reveal" id="appointment-form"><span class="form-tag">SOLICITAÇÃO DE CONTATO</span><h3>Conte um pouco sobre seu pet.</h3><p>Preencha para gerar uma mensagem de agendamento que você poderá copiar.</p><div class="form-row"><label>Seu nome <input name="nome" required autocomplete="name" placeholder="Como podemos chamar você?"></label><label>Nome do pet <input name="pet" required placeholder="Nome do seu companheiro"></label></div><div class="form-row"><label>E-mail <input name="email" type="email" autocomplete="email" placeholder="seu@email.com"></label><label>Tipo de atendimento <select name="servico"><option value="Consulta clínica">Consulta clínica</option><option value="Vacinação e prevenção">Vacinação e prevenção</option><option value="Odontologia veterinária">Odontologia veterinária</option><option value="Avaliação e exames">Avaliação e exames</option></select></label></div><label>O que você gostaria de conversar? <textarea name="mensagem" rows="3" placeholder="Conte brevemente o motivo do contato"></textarea></label><button class="btn btn-primary form-submit" type="submit">Preparar mensagem <span aria-hidden="true">↗</span></button><small>Projeto demonstrativo: nenhuma informação é enviada a um servidor.</small><div class="prepared-message" id="prepared-message" hidden><strong>Mensagem preparada</strong><textarea id="message-output" readonly rows="6" aria-label="Mensagem pronta para copiar"></textarea><button id="copy-message" type="button" class="copy-button">Copiar mensagem</button><span id="copy-status" role="status"></span></div></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top"><div><a href="#inicio" class="brand footer-brand"><span class="brand-symbol" aria-hidden="true">✳</span> petcare<span class="brand-dot">.</span></a><p>Cuidar de quem faz parte da família. Uma experiência digital que aproxima pessoas e seus melhores amigos.</p></div><div><h3>Explore</h3><a href="#sobre">Sobre nós</a><a href="#servicos">Serviços</a><a href="#equipe">Equipe</a><a href="#duvidas">Perguntas frequentes</a></div><div><h3>Fale com a gente</h3><a href="#contato">Agendamento</a><a href="#contato">Contato</a><a href="#contato">Localização</a></div></div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Petcare. Modelo demonstrativo, empresa fictícia.</span><a href="https://guaraagency.com.br/" target="_blank" rel="noopener noreferrer">Desenvolvido pela Guará Agency ↗</a></div>
+  </footer>
+  <dialog id="booking-dialog" class="booking-dialog" aria-labelledby="booking-heading"><form method="dialog"><button class="close-dialog" aria-label="Fechar" value="cancel">×</button></form><div class="dialog-content"><span class="eyebrow"><i></i> AGENDAMENTO</span><h2 id="booking-heading">Vamos cuidar do seu pet?</h2><p>Este projeto é uma demonstração. Você pode preencher a solicitação e preparar uma mensagem de contato sem enviar dados.</p><a class="btn btn-primary" href="#contato" id="dialog-goto-contact">Preencher solicitação ↗</a></div></dialog>
+</body>
+</html>
