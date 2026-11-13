@@ -70,7 +70,7 @@
       marker: '03 — SAÚDE BUCAL',
       title: 'Um sorriso saudável também precisa de atenção.',
       text: 'A avaliação oral pode identificar alterações e ajudar o tutor a compreender os cuidados necessários para manter a saúde e o conforto do animal.',
-      image: imageBase + '1583337130417-3346a1be7dee/pexels-photo-1583337130417-3346a1be7dee.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: imageBase + '6234618/pexels-photo-6234618.jpeg?auto=compress&cs=tinysrgb&w=1200',
       alt: 'Cachorro de pequeno porte olhando para a câmera'
     },
     exames: {
