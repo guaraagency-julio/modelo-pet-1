@@ -32,3 +32,5 @@ O workflow publica automaticamente a versão estática da branch `main` no GitHu
 ## Personalização antes de entregar a um cliente
 
 Substituir marca e imagens, nome e registros dos profissionais, serviços reais, horário, endereço, contatos e avaliações. Integrar a solicitação de agendamento a WhatsApp ou plataforma escolhida. Não utilizar depoimentos e qualificações fictícios como afirmações reais.
+
+Fotografia ilustrativa do gato: Unsplash, https://unsplash.com/photos/7GX5aICb5i4 (imagem photo-1573865526739-10659fec78a5).
